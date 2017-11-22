@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Willka Energy</title>
+
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">  
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">                
+    <link rel="stylesheet" href="css/bootstrap.min.css">                                      
+    <link rel="stylesheet" href="css/estilo.css">  
+
+
+</head>
+
+    <body>
+        
+        <div class="container">
+            <header class="tm-site-header">
+                <h1 class="tm-site-name">Willka Energy</h1>
+                
+                <nav class="navbar navbar-expand-md tm-main-nav-container">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#tmMainNav" aria-controls="tmMainNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="fa fa-bars"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse tm-main-nav" id="tmMainNav">
+                        <ul class="nav nav-fill tm-main-nav-ul">
+                            <li class="nav-item"><a class="nav-link" href="produto.html">Produto</a></li>
+                            <li class="nav-item"><a class="nav-link" href="historia.html">História da empresa</a></li>
+                            <li class="nav-item"><a class="nav-link" href="parceiros.html">Parceiros</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="compra.html">Formulario de compra</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                
+            </header>
+            
+            <div class="tm-main-content">
+                <section class="tm-margin-b-l">
+                    <header>
+                        <h2 class="tm-main-title">Formulario de compra</h2>    
+
+
+
+                <form id="cadastro" name="cadastro" method="post" action="verifica.php">
+  <table width="625" border="0">
+    <tr>
+      <td width="69">Nome:</td>
+      <td width="546"><input name="nome" type="text" id="nome" size="50" maxlength="60" />
+        </td>
+    </tr>
+    <tr>
+      <td>Email:</td>
+      <td><input name="email" type="text" id="email" size="50" maxlength="60" />
+      </td>
+    </tr>
+    
+    <tr>
+      <td>DDD:</td>
+      <td><input name="ddd" type="text" id="ddd" size="4" maxlength="2" />
+      Telefone:
+        <input name="telefone" type="text" id="telefone" />
+         </td>
+    </tr>
+        <tr>
+      <td>Estado:</td>
+      <td><select name="estado" id="estado">
+        <option>Selecione...</option>
+        <option value="AC">AC</option>
+        <option value="AL">AL</option>
+        <option value="AP">AP</option>
+        <option value="AM">AM</option>
+        <option value="BA">BA</option>
+        <option value="CE">CE</option>
+        <option value="ES">ES</option>
+        <option value="DF">DF</option>
+        <option value="MA">MA</option>
+        <option value="MT">MT</option>
+        <option value="MS">MS</option>
+        <option value="MG">MG</option>
+        <option value="PA">PA</option>
+        <option value="PB">PB</option>
+        <option value="PR">PR</option>
+        <option value="PE">PE</option>
+        <option value="PI">PI</option>
+        <option value="RJ">RJ</option>
+        <option value="RN">RN</option>
+        <option value="RS">RS</option>
+        <option value="RO">RO</option>
+        <option value="RR">RR</option>
+        <option value="SC">SC</option>
+        <option value="SP">SP</option>
+        <option value="SE">SE</option>
+        <option value="TO">TO</option>
+          </select>
+        </td>
+    </tr>
+<td>Cidade:</td>
+      <td><input name="cidade" type="text" id="cidade" maxlength="20" />
+        </td>
+    </tr>
+    <tr>
+      <td>Endere&ccedil;o:</td>
+      <td><input name="endereco" type="text" id="endereco" size="50" maxlength="70" />
+        </td>
+    </tr>
+    <tr>
+      
+    <tr>
+      <td>Quantidade:</td>
+      <td><select name="qtd" id="qtd">
+        <option>Selecione...</option>
+        <option value="50">50</option>
+        <option value="100">100</option>
+        <option value="200">200</option>
+        <option value="500">500</option>
+          </select>
+        </td>
+    </tr>
+    
+    <td>Comentarios:</td>
+      <td><input name="coment" type="text" id="coment" maxlength="500" size="70" />
+        </td>
+    </tr>
+    
+    <tr>
+      <td colspan="2"><p>
+        <input name="cadastrar" type="submit" id="cadastrar" value="Concluir minha ordem de compra!" /> 
+        
+          <input name="limpar" type="reset" id="limpar" value="Limpar Campos preenchidos!" />
+          
+          </p>
+      
+    </tr>
+  </table>
+</form>
+
+
+
+
+
+                    </header>
+                    
+                    
+            
+        </div>
+       
+
+</body>
+</html>
