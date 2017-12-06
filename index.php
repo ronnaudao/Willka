@@ -17,8 +17,8 @@
       echo"<script language='javascript' type='text/javascript'>;window.location.href='listar.php';</script>";
     }else{
       echo"Bem-Vindo, convidado <br>";
-      echo"Faça login/cadastro para acessar as informações";
-      echo"<br><a href='login.html'>LOGIN/CADASTRO</a>";
+      echo"Faça login para acessar as informações";
+      echo"<br><a href='login.html'>LOGIN</a>";
 
     }
 ?>
