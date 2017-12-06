@@ -47,8 +47,8 @@
                     <?php
 include 'menu.php';
 include 'banco.php';
-$datatable = "usuario";
-$results_per_page = 1000;
+$datatable = "compras";
+$results_per_page = 10;
 
 $link = mysqli_connect($servername, $username, $password, $database);
 
